@@ -1,3 +1,3 @@
 # MyCtf
 
-** CTF challenges .**
+**CTF challenges .**
