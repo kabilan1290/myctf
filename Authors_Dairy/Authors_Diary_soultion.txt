@@ -1,0 +1,26 @@
+Challenge Name : Author's Diary
+Challenge Type : Trivia
+DIfficulty     : Medium
+Description    : The author wrote some sensitive information on his book,Help me Decode it.
+Flag Format    :  Bytecon{small letters}
+Author         : Game0v3r
+
+Ideology : I attended a CTF named nova in our region where i faced the same type of challenge but with completely different cipher.I implemented the methodology with different cipher here.
+
+Solution : 
+
+The Pdf file contains a hand written cipher and the main thing here is no available decoder for the cipher and moreover its an underrated cipher with very few images in the internet.
+making a reference out of the image and decoding is the only possible way.
+
+So how the user going to find the cipher name?
+First we need to use the exiftool and we note that 
+
+Author                          : Fairy
+
+The author name is mentioned as Fairy,The challenge is all about author information on his book.
+So the cipher here is Fairy code Cipher.Googleing and searching in the image section.
+https://i.pinimg.com/originals/6f/9d/c9/6f9dc9fbaa1397e9dceaf9e08f3f09a3.jpg
+
+We found the encrption mechanism and decrypting it will reveal the flag.
+
+flag : bytecon{magical_cipher!!!}

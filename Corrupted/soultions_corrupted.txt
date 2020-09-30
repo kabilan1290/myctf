@@ -1,0 +1,26 @@
+Challenge Name : Coffee or Tea?
+Challenge Type : Misc
+DIfficulty     : Easy
+Description    : I want to know what the person in the image prefers to dink!!!
+Flag Format    :  Bytecon{}
+Author         : Game0v3r
+
+Ideology : As far as i know,most of the corupted image challs were based on changing the first byte values,I always thought of something different and come up with changing the IHDR chunk.
+
+Solution:
+
+The challenge is pretty simple.we were given with an corupted image.
+
+But this is not an classic corrupted image,where the extension needed to be changed for solving the problem.
+
+We need to do pngcheck to understand whats the problem.
+
+root@kali:~/Desktop/myctf/Corrupted# pngcheck corrupt.png
+corrupt.png  first chunk must be IHDR
+ERROR: corrupt.png
+
+From the above we found out that the IHDR chunk has the defect.
+
+Using hexedit to check the png,the IHDR chunk was written as DRIH.Changing the value back to IHDR,You will be restore the corrupted image and get the flag.
+
+Flag : bytecon{1_Pref3r_Coff33}

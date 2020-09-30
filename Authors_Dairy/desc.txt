@@ -1,0 +1,6 @@
+Challenge Name : Author's Diary
+Challenge Type : Trivia
+DIfficulty     : Medium
+Description    : The author wrote some sensitive information on his book,Help me Decode it.
+Flag Format    :  Bytecon{small letters}
+Author         : Game0v3r

@@ -1,0 +1,6 @@
+Challenge Name : Coffee or Tea?
+Challenge Type : Misc
+DIfficulty     : Easy
+Description    : I want to know what the person in the image prefers to drink!!!
+Flag Format    :  Bytecon{}
+Author         : Game0v3r
