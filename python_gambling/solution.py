@@ -1,0 +1,2 @@
+code = ["b","y","t","e","c","o","n","a","P","r","{","}","g","m","i","n","G","0","_","l","3","R"]
+print(code[0]+code[1]+code[2]+code[3]+code[4]+code[5]+code[6]+code[10]+code[8]+code[9]+code[5]+code[12]+code[9]+code[7]+code[13]+code[13]+code[14]+code[15]+code[16]+code[18]+code[16]+code[7]+code[13]+code[0]+code[19]+code[20]+code[21]+code[11])

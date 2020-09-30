@@ -1,0 +1,6 @@
+Challenge Name : Tweet
+Challenge Type : Stego
+DIfficulty     : Easy
+Description    : Instagram,facebook,whatsapp..whatever,I love twitter.
+Flag Format    :  Bytecon{}
+Author         : Game0v3r

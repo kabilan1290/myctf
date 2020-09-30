@@ -1,0 +1,6 @@
+Challenge Name : Python Gambling
+Challenge Type : Misc
+DIfficulty     : Easy
+Description    : I love to gamble!!Not with money,With python.!!
+Flag Format    :  Bytecon{}
+Author         : Game0v3r

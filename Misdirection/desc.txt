@@ -1,0 +1,6 @@
+Challenge Name : Misdirection
+Challenge Type : Trivia
+DIfficulty     : Medium
+Description    : my name is 13261422 and pass is 2115181121151811.Ending is always Misdirected.
+Flag Format    :  Bytecon{}
+Author         : Game0v3r

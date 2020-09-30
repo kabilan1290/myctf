@@ -1,0 +1,34 @@
+Challenge Name : Focus
+Challenge Type : Binary
+DIfficulty     : Easy
+Description    : Dont get confused.Focus on the Key for Success.Hit them Hard.
+Flag Format    :  Bytecon{}
+Author         : Game0v3r
+
+Ideology : Wanted to create a simple binary challenge and also wanted it to look tricky,so i created the challin python and used pyinstaller to convert it to executable.lame method of converting but it still works.
+
+Solution :
+
+The challenge will be provided with an zip file,Unzipping will result in multiple executables,instead of giving a single executable.
+As the Description highlights "Focus on the Key for Success",there will be a executable named key and thats the executable contains the flag.
+
+┌─[root@kali]─[~/Desktop/myctf/Focus/test]
+└──╼ #./key
+jsjs
+4
+bytecon{%s%d%c}
+
+Running the file will prompted with input,if we enter "jsjs" we resulted with 4 (the length of the input) and a string bytecon{%s%d%c}.
+
+As the end of description says Hit them Hard,We know what we need to do.We need to try inputing larger length inputs.
+
+
+
+┌─[root@kali]─[~/Desktop/myctf/Focus/test]
+└──╼ #python -c "print('a'*1234)" | ./key
+1234
+Flag Is bytecon{h1T_m3_Hard3r}
+
+printing a string with length of more than 1000 chars will result in the flag.
+
+Flag : bytecon{h1T_m3_Hard3r}

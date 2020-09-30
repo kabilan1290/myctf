@@ -1,0 +1,20 @@
+Challenge Name : Misdirection
+Challenge Type : Trivia
+DIfficulty     : Medium
+Description    : my name is 13261422 and pass is 2115181121151811.Ending is always Misdirected.Pass is Lower case.
+Flag Format    :  Bytecon{}
+Author         : Game0v3r
+
+Solution : 
+The challenge contains a password protected zip file.The hint for the password is given in the description.
+
+This is actually a  A1Z26 cipher.The value name is encoded as 13261422.
+
+So decrypting the pass value 2115181121151811 in https://www.dcode.fr/letter-number-cipher,
+We get the password ==> FLIPFLIP, we got to know the password is lowercase.
+
+Using flipflip as password for the zip challenge,we were prompted with an png file containing QR code.
+
+Sacnning the qr code give as the flag.
+
+bytecon{Break_it_and_flip_it}

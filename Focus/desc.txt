@@ -1,0 +1,6 @@
+Challenge Name : Focus
+Challenge Type : Binary
+DIfficulty     : Easy
+Description    : Dont get confused.Focus on the Key for Success.Hit them Hard.
+Flag Format    :  Bytecon{}
+Author         : Game0v3r

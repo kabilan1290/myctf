@@ -1,0 +1,26 @@
+Challenge Name : Python Gambling
+Challenge Type : Misc
+DIfficulty     : Easy
+Description    : I love to gamble!!Not with money,With python.!!
+Flag Format    :  Bytecon{}
+Author         : Game0v3r
+
+Ideology :I just thought of giving a simple problem with an esolang (Deadfish) and just want to make it tricky(Dont want to give the flag directly) and for the love of python ,I created this challlenge.
+
+Solution:
+We are given with two files,code and test.py.
+
+test.py printing some value from the indices of variable code.But we dont have the values for the variable code.
+print(code[0]+code[1]+code[2]+code[3]+code[4]+code[5]+code[6]+code[10]+code[8]+code[9]+code[5]+code[12]+code[9]+code[7]+code[13]+code[13]+code[14]+code[15]+code[16]+code[18]+code[16]+code[7]+code[13]+code[0]+code[19]+code[20]+code[21]+code[11])
+
+We having another file named code,looking inside we have an esolang there and it was deadfish.Decrypting that,
+["b","y","t","e","c","o","n","a","P","r","{","}","g","m","i","n","G","0","_","l","3","R"]
+We got the value for code variable.
+
+python soultion.py
+code = ["b","y","t","e","c","o","n","a","P","r","{","}","g","m","i","n","G","0","_","l","3","R"]
+print(code[0]+code[1]+code[2]+code[3]+code[4]+code[5]+code[6]+code[10]+code[8]+code[9]+code[5]+code[12]+code[9]+code[7]+code[13]+code[13]+code[14]+code[15]+code[16]+code[18]+code[16]+code[7]+code[13]+code[0]+code[19]+code[20]+code[21]+code[11])
+
+Running this program will give the flag.
+
+Flag : bytecon{ProgramminG_Gambl3R}

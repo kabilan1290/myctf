@@ -1,0 +1,20 @@
+Challenge name : Language Riddle
+Challenge Type : Trivia
+Difficulty     : Medium
+Description    : The test for language master is here, Prove your worth and find the flag. 
+Flag Format    : bytecon{}
+Author         : Game0v3r
+
+Solution:
+
+A text file is given with an unknown language and in top theres a base64 encoding value with flag string highlighted in it,
+But thats a rabbithole u need decrypt 4 times to find out theres only a useless strings.
+
+Lets find the language written all over the text file,by using google we can find that is an persian language and all it saying was "flag is here".
+If we look closely there were other suspicious things " 粘贴隐藏在这里 " and "Jj90hFqZ".
+
+The first one is chinese language,Decoding that says "Paste is here" and we got a string Jj90hFqZ,From trasnlating the chinese language we can findout the other string is pastebin.com/<string>
+
+So requesting https://pastebin.com/Jj90hFqZ,We get the Flag.
+
+Flag : bytecon{M4st3r_0f_l4ngu4g3_RiDDl3}

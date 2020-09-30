@@ -1,0 +1,35 @@
+Challenge name : SpoonFeed
+Challenge Type : Misc
+Difficulty     : Medium
+Description    : Spoon Feeding is only for kids,I wont do that here. Here's a file "spoon.txt",Learn yourself.
+Flag Format    : bytecon{}
+Author         : Game0v3r
+
+Ideology : Most of the CTfs contains similar methodology of lyrics challenges.This is one such challenge.
+
+Solution:
+On viewing the challenge file we can see there ae binaries spread across here and there.
+SO we have to extract the binary alone and to do so,we need to Script.
+
+st = """
+
+<Whole text goes here>
+
+"""
+for i in st:
+    if ord(i)==49 or ord(i) ==48:
+        print(i, end="")
+
+The values 48 and 49 represents 0 and 1.
+
+┌─[✗]─[root@kali]─[~/Desktop/myctf/Spoon]
+└──╼ #python3 Solution.py 
+1111111111001000101010111010111111101011111111110110110110110000011010010010010000000001010111111111111111111111110010100000000000000000010100000000000000000000000000000000000000000000000010100000000010101111111111110010100000010101111111111111001010000000000000000000000000000000000000000001010011011111111111111111111001010010010111111001010000000000000000000000000000000000000000000000000000000000000000001010110010100000000010101110010101111111001010111110010100110111111001010010010111100101011111110010101111001010
+
+Running the script gives the values of 0 and 1.
+
+If we thought its an binary and its not,As the challenge says this is spoon encoding.
+
+decrypting in https://www.dcode.fr/spoon-language,Will give us the flag.
+
+bytecon{n0t_a_bin4ry}s

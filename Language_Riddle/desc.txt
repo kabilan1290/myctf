@@ -1,0 +1,6 @@
+Challenge name : Language Riddle
+Challenge Type : Trivia
+Difficulty     : Medium
+Description    : The test for language master is here, Prove your worth and find the flag. 
+Flag Format    : bytecon{}
+Author         : Game0v3r

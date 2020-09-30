@@ -1,0 +1,19 @@
+Challenge Name : Tweet
+Challenge Type : Stego
+DIfficulty     : Easy
+Description    : Instagram,facebook,whatsapp..whatever,I love twitter.
+Flag Format    :  Bytecon{}
+Author         : Game0v3r
+
+Ideology : Twitter secret message
+
+Solution :
+The text file contains a small tweet, so basically we thought of searching the tweet but here thats of no use. 
+
+The challenge based on a stegnography called twitter secret message. 
+
+Where the unicode chracters hidden inside the given message. 
+
+Finding the correct decoder [https://holloway.nz/steg/] and inputting the whole text will give us the flag.
+
+Flag: bytecon{twitt3r_s3cr3t}

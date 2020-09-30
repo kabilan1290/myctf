@@ -1,0 +1,6 @@
+Challenge name : SpoonFeed
+Challenge Type : Misc
+Difficulty     : Medium
+Description    : Spoon Feeding is only for kids,I wont do that here. Here's a file "spoon.txt",Learn yourself.
+Flag Format    : bytecon{}
+Author         : Game0v3r
